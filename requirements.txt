@@ -1,4 +1,29 @@
-langchain-openai
-langchain-mcp-adapters
-mcp
-langgraph
+# Core API dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.11.7
+python-dotenv>=1.1.0
+
+# AI and LLM dependencies
+openai>=1.58.1
+langchain-openai>=0.1.0
+
+# Web scraping and requests
+requests>=2.31.0
+beautifulsoup4>=4.13.4
+
+# Data analysis
+pandas>=2.3.0
+numpy>=1.26.4
+
+# Finance tools
+yfinance>=0.2.64
+
+# News tools
+duckduckgo-search>=8.0.4
+
+# Music generation
+agno>=1.7.0
+
+# Optional: Enhanced web search
+tavily-python>=0.7.8
